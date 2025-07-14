@@ -58,6 +58,7 @@ body {
 /* start header */
 .header {
   background-color: #ffffff;
+ 
 }
 
 .header .container {
@@ -92,10 +93,13 @@ body {
 }
 
 .header .container .name {
-var(--main-color)}
+ color: var(--main-color)
+
+}
 
 .header .container .name span {
   color: var(--secondary-color);
+
 }
 
 @media (max-width: 768px) {
@@ -215,8 +219,15 @@ padding: 5px;
  }
  
   .container form a:hover{
-color: var(--secondary-color);
+color:  #FFF;
 font-size: 45px;
  
 
  }
+
+   @media (max-width: 500px) {
+  .header   {
+  padding-bottom: 60px;
+ 
+  }
+}
